@@ -1,20 +1,3 @@
-/**
- * Theme Name:        ecommerce 7learn 1403
- * Theme URI:         https://google.com
- * Description:       Woocommerce synced Wordpress theme
- * Version:           1.0.0
- * Author:            Erfan Ranjbaran
- * Author URI:        https://erff-on.ir
- * Tags:              block-patterns, full-site-editing
- * Text Domain:       ecom-7learn-theme
- * Domain Path:       /assets/lang
- * Tested up to:      6.4
- * Requires at least: 6.2
- * Requires PHP:      7.4
- * License:           GNU General Public License v2.0 or later
- * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- */
-
 /* Version: 1.1.2 */
 /*Start Fonts*/
 @font-face {
@@ -5428,8 +5411,7 @@ textarea.e-field-inner {
   }
 }
 
-/* Common styles */
-
+/* COMMON */
 /*--------------------- Copyright (c) 2021 ----------------------- 
 [Comman Stylesheet] 
 Project: Shopmartio - Responsive HTML Template 

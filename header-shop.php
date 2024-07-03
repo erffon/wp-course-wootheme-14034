@@ -86,7 +86,7 @@
             <div class="header-sticky-wrapper">
                 <div class="hs-left">
                     <div class="hs-left-logo">
-                        <a href="index.html"><img src="assets/images/index1/logo.png" alt="logo" class="img-fluid"></a>
+                        <a href="index.html"><img src="<?php echo get_template_directory_uri() . '/assets/images/index1/logo.png' ?>" alt="logo" class="img-fluid"></a>
                     </div>
                 </div>
                 <div class="hs-medium custom-scroll">

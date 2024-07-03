@@ -1,4 +1,4 @@
 <?php wp_footer(); ?>
-</body>
+</body class="<?php echo body_class(); ?>">
 
 </html>

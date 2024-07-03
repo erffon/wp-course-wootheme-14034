@@ -15,13 +15,13 @@ function wct_register_assets()
     wp_enqueue_style('wct-nice-select');
 
     //REGISTER SCRIPTS
-    wp_register_script('wct-bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.bundle.min.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
-    wp_register_script('wct-custom-js', get_template_directory_uri() . '/assets/js/custom.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
-    wp_register_script('wct-swiper-js', get_template_directory_uri() . '/assets/js/swiper-bundle.min.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
-    wp_register_script('wct-isotope-js', get_template_directory_uri() . '/assets/js/isotope.pkgd.min.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
-    wp_register_script('wct-smooth-scroll-js', get_template_directory_uri() . '/assets/js/SmoothScroll.min.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
-    wp_register_script('wct-rang-slider-js', get_template_directory_uri() . '/assets/js/rang_slider.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
-    wp_register_script('wct-nice-select-js', get_template_directory_uri() . '/assets/js/jquery.nice-select.min.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
+    wp_register_script('wct-bootstrap-js', THEME_URI . '/assets/js/bootstrap.bundle.min.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
+    wp_register_script('wct-custom-js', THEME_URI . '/assets/js/custom.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
+    wp_register_script('wct-swiper-js', THEME_URI . '/assets/js/swiper-bundle.min.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
+    wp_register_script('wct-isotope-js', THEME_URI . '/assets/js/isotope.pkgd.min.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
+    wp_register_script('wct-smooth-scroll-js', THEME_URI . '/assets/js/SmoothScroll.min.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
+    wp_register_script('wct-rang-slider-js', THEME_URI . '/assets/js/rang_slider.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
+    wp_register_script('wct-nice-select-js', THEME_URI . '/assets/js/jquery.nice-select.min.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
 
 
 

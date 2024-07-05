@@ -9,7 +9,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
+<body class="<?php echo body_class(); ?>">
     <!-- main-wrapper start -->
     <div class="main-wrapper">
         <!-- Preloader Box -->

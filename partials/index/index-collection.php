@@ -26,10 +26,10 @@
                                     <div class="na-top-sec text-center">
                                         <div class="na-imgbox">
                                             <div class="na-mainimg">
-                                                <img src="assets/images/index1/new_arrivals/01.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/01.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                             <div class="na-overlay-img">
-                                                <img src="assets/images/index1/new_arrivals/11.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/11.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="na-color-details">
@@ -66,10 +66,10 @@
                                     <div class="na-top-sec text-center">
                                         <div class="na-imgbox">
                                             <div class="na-mainimg">
-                                                <img src="assets/images/index1/new_arrivals/02.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/02.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                             <div class="na-overlay-img">
-                                                <img src="assets/images/index1/new_arrivals/10.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/10.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="na-color-details">
@@ -106,10 +106,10 @@
                                     <div class="na-top-sec text-center">
                                         <div class="na-imgbox">
                                             <div class="na-mainimg">
-                                                <img src="assets/images/index1/new_arrivals/03.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/03.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                             <div class="na-overlay-img">
-                                                <img src="assets/images/index1/new_arrivals/12.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/12.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="na-color-details">
@@ -145,10 +145,10 @@
                                     <div class="na-top-sec text-center">
                                         <div class="na-imgbox">
                                             <div class="na-mainimg">
-                                                <img src="assets/images/index1/new_arrivals/04.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/04.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                             <div class="na-overlay-img">
-                                                <img src="assets/images/index1/new_arrivals/07.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/07.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="na-color-details">
@@ -186,10 +186,10 @@
                                     <div class="na-top-sec text-center">
                                         <div class="na-imgbox">
                                             <div class="na-mainimg">
-                                                <img src="assets/images/index1/new_arrivals/05.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/05.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                             <div class="na-overlay-img">
-                                                <img src="assets/images/index1/new_arrivals/08.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/08.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="na-color-details">
@@ -226,10 +226,10 @@
                                     <div class="na-top-sec text-center">
                                         <div class="na-imgbox">
                                             <div class="na-mainimg">
-                                                <img src="assets/images/index1/new_arrivals/06.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/06.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                             <div class="na-overlay-img">
-                                                <img src="assets/images/index1/new_arrivals/12.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/12.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="na-color-details">
@@ -265,10 +265,10 @@
                                     <div class="na-top-sec text-center">
                                         <div class="na-imgbox">
                                             <div class="na-mainimg">
-                                                <img src="assets/images/index1/new_arrivals/07.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/07.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                             <div class="na-overlay-img">
-                                                <img src="assets/images/index1/new_arrivals/04.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/04.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="na-color-details">
@@ -306,10 +306,10 @@
                                     <div class="na-top-sec text-center">
                                         <div class="na-imgbox">
                                             <div class="na-mainimg">
-                                                <img src="assets/images/index1/new_arrivals/08.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/08.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                             <div class="na-overlay-img">
-                                                <img src="assets/images/index1/new_arrivals/05.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/05.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="na-color-details">
@@ -347,10 +347,10 @@
                                     <div class="na-top-sec text-center">
                                         <div class="na-imgbox">
                                             <div class="na-mainimg">
-                                                <img src="assets/images/index1/new_arrivals/09.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/09.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                             <div class="na-overlay-img">
-                                                <img src="assets/images/index1/new_arrivals/04.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/04.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="na-color-details">
@@ -388,10 +388,10 @@
                                     <div class="na-top-sec text-center">
                                         <div class="na-imgbox">
                                             <div class="na-mainimg">
-                                                <img src="assets/images/index1/new_arrivals/10.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/10.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                             <div class="na-overlay-img">
-                                                <img src="assets/images/index1/new_arrivals/02.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/02.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="na-color-details">
@@ -428,10 +428,10 @@
                                     <div class="na-top-sec text-center">
                                         <div class="na-imgbox">
                                             <div class="na-mainimg">
-                                                <img src="assets/images/index1/new_arrivals/11.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/11.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                             <div class="na-overlay-img">
-                                                <img src="assets/images/index1/new_arrivals/01.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/01.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="na-color-details">
@@ -469,10 +469,10 @@
                                     <div class="na-top-sec text-center">
                                         <div class="na-imgbox">
                                             <div class="na-mainimg">
-                                                <img src="assets/images/index1/new_arrivals/12.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/12.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                             <div class="na-overlay-img">
-                                                <img src="assets/images/index1/new_arrivals/06.png" alt="product-img" class="img-fluid">
+                                                <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/06.png' ?>" alt="product-img" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="na-color-details">

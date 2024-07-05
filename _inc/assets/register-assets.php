@@ -16,18 +16,20 @@ function wct_register_assets()
 
     //REGISTER SCRIPTS
     wp_register_script('wct-bootstrap-js', THEME_URI . '/assets/js/bootstrap.bundle.min.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
+    wp_register_script('wct-isotop-js', THEME_URI . '/assets/js/isotope.pkgd.min.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
     wp_register_script('wct-swiper-js', THEME_URI . '/assets/js/swiper-bundle.min.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
-    wp_register_script('wct-custom-js', THEME_URI . '/assets/js/custom.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
     wp_register_script('wct-nice-selece-js', THEME_URI . '/assets/js/jquery.nice-select.min.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
+    wp_register_script('wct-custom-js', THEME_URI . '/assets/js/custom.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
 
 
 
 
 
     wp_enqueue_script('wct-bootstrap-js');
+    wp_enqueue_script('wct-isotop-js');
     wp_enqueue_script('wct-swiper-js');
-    wp_enqueue_script('wct-custom-js');
     wp_enqueue_script('wct-nice-selece-js');
+    wp_enqueue_script('wct-custom-js');
 
 
     // JQUERY ENQUEUE

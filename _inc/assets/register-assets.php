@@ -32,6 +32,9 @@ function wct_register_assets()
     wp_enqueue_script('wct-smooth-scroll-js');
     wp_enqueue_script('wct-rang-slider-js');
     wp_enqueue_script('wct-nice-select-js');
+    wp_enqueue_script('jquery');
+    wp_enqueue_script('jquery-core');
+    wp_enqueue_script('jquery-migrate');
 
 
     wp_localize_script('frontajax', 'frontajax', [

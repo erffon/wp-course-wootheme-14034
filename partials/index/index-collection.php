@@ -1,4 +1,3 @@
-<!-- مجموعه جدید  start -->
 <section class="e-newarivles-wrap e-newarivles-cloth">
     <div class="container">
         <div class="row">

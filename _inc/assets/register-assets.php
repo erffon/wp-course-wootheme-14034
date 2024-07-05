@@ -8,11 +8,13 @@ function wct_register_assets()
     wp_register_style('wct-bootstrap', get_stylesheet_directory_uri() . '/assets/css/bootstrap.min.css', '', '1.0.0');
     wp_register_style('wct-swiper', get_stylesheet_directory_uri() . '/assets/css/swiper-bundle.min.css', '', '1.0.0');
     wp_register_style('wct-nice-select', get_stylesheet_directory_uri() . '/assets/css/nice-select.css', '', '1.0.0');
+    wp_register_style('wct-font', get_stylesheet_directory_uri() . '/assets/css/font.css', '', '1.0.0');
 
-    wp_enqueue_style('wct-main-style');
     wp_enqueue_style('wct-bootstrap');
     wp_enqueue_style('wct-swiper');
     wp_enqueue_style('wct-nice-select');
+    wp_enqueue_style('wct-font');
+    wp_enqueue_style('wct-main-style');
 
     //REGISTER SCRIPTS
     wp_register_script('wct-bootstrap-js', THEME_URI . '/assets/js/bootstrap.bundle.min.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);

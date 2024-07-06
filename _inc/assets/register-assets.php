@@ -23,10 +23,6 @@ function wct_register_assets()
     wp_register_script('wct-nice-selece-js', THEME_URI . '/assets/js/jquery.nice-select.min.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
     wp_register_script('wct-custom-js', THEME_URI . '/assets/js/custom.js', ['jquery'], '1.0.0', ['in_footer' => 'true']);
 
-
-
-
-
     wp_enqueue_script('wct-bootstrap-js');
     wp_enqueue_script('wct-isotop-js');
     wp_enqueue_script('wct-swiper-js');

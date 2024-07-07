@@ -123,14 +123,27 @@
                                                     'hide_empty' => false,
                                                     'parent' => $cat->cat_ID,
                                                     'orderby' => 'id',
-                                                    'order' => 'ASC',
+                                                    'order' => 'DESC',
                                                 ];
                                                 $sub_categories = get_categories($args);
                                                 if ($sub_categories) :
                                                     foreach ($sub_categories as $sub) : ?>
                                                         <li>
+                                                            <a href="javascript:void(0);"><?php echo  $sub->name ?></a>
                                                             <ul class="super-sub-menu">
-                                                                <li><a href="product_category.html"><?php echo $sub->name ?></a></li>
+                                                                <?php $args = [
+                                                                    'taxonomy' => ['product_cat'],
+                                                                    'hide_empty' => false,
+                                                                    'parent' => $sub->cat_ID,
+                                                                    'orderby' => 'id',
+                                                                    'order' => 'ASC',
+                                                                ];
+                                                                $xsub_categories = get_categories($args);
+                                                                if ($xsub_categories) :
+                                                                    foreach ($xsub_categories as $xsub) : ?>
+                                                                        <li><a href="product_category.html"><?php echo  $xsub->name ?></a></li>
+                                                                    <?php endforeach; ?>
+                                                                <?php endif; ?>
                                                             </ul>
                                                         </li>
                                                     <?php endforeach; ?>

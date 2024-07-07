@@ -104,7 +104,11 @@
                             </li>
                             <?php $args = [
                                 'taxonomy' => ['product_cat'],
-                                'hide_empty' => false
+                                'hide_empty' => false,
+                                'parent' => 0,
+                                'orderby' => 'id',
+                                'order' => 'ASC',
+                                'exclude' => ['15']
                             ];
                             $product_main_cats = get_categories($args);
                             if ($product_main_cats) :

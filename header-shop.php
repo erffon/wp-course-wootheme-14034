@@ -118,14 +118,25 @@
                                         <a href="javascript:void(0);"><?php echo $cat->name; ?> </a>
                                         <div class="drop-menu mega-menu">
                                             <ul class="sub-menu">
-
-                                                <li>
-                                                    <a href="javascript:void(0);">پوشیدنی های برتر</a>
-                                                    <ul class="super-sub-menu">
-                                                        <li><a href="product_category.html">تی شرت </a></li>
-
-                                                    </ul>
-                                                </li>
+                                                <?php $args = [
+                                                    'taxonomy' => ['product_cat'],
+                                                    'hide_empty' => false,
+                                                    'parent' => $cat->cat_ID,
+                                                    'orderby' => 'id',
+                                                    'order' => 'ASC',
+                                                ];
+                                                $sub_categories = get_categories($args);
+                                                if ($sub_categories) :
+                                                    foreach ($sub_categories as $sub) : ?>
+                                                        <li>
+                                                            <ul class="super-sub-menu">
+                                                                <li><a href="product_category.html"><?php echo $sub->name ?></a></li>
+                                                            </ul>
+                                                        </li>
+                                                    <?php endforeach; ?>
+                                                <?php else : ?>
+                                                    <div class="alert alert-warning">زیر دسته ای موجود نیست!</div>
+                                                <?php endif; ?>
                                             </ul>
                                             <div class="mega-menu-info d-lg-flex">
                                                 <div class="col-lg-4">

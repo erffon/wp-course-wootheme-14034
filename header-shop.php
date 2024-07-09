@@ -129,7 +129,7 @@
                                                 if ($sub_categories) :
                                                     foreach ($sub_categories as $sub) : ?>
                                                         <li>
-                                                            <a href="<?php echo get_category_link($sub->cat_ID); ?>"><?php echo  $sub->name ?></a>
+                                                            <a href="<?php echo get_category_link($sub->cat_ID); ?>"><?php echo  $sub->name ?><span><?php  ?></span></a>
                                                             <ul class="super-sub-menu">
                                                                 <?php $args = [
                                                                     'taxonomy' => ['product_cat'],

@@ -118,7 +118,8 @@
                                         <a href="javascript:void(0);"><?php echo $cat->name; ?> </a>
                                         <div class="drop-menu mega-menu">
                                             <ul class="sub-menu">
-                                                <?php $args = [
+                                                <?php
+                                                $args = [
                                                     'taxonomy' => ['product_cat'],
                                                     'hide_empty' => false,
                                                     'parent' => $cat->cat_ID,
@@ -129,9 +130,10 @@
                                                 if ($sub_categories) :
                                                     foreach ($sub_categories as $sub) : ?>
                                                         <li>
-                                                            <a href="<?php echo get_category_link($sub->cat_ID); ?>"><?php echo  $sub->name ?><span><?php  ?></span></a>
+                                                            <a href="<?php echo get_category_link($sub->cat_ID); ?>"><span><img src="<?php echo wct_display_cat_thumbnail($sub->cat_ID) ?>" alt="" width="18"><?php  ?></span><?php echo  $sub->name ?></a>
                                                             <ul class="super-sub-menu">
-                                                                <?php $args = [
+                                                                <?php
+                                                                $args = [
                                                                     'taxonomy' => ['product_cat'],
                                                                     'hide_empty' => false,
                                                                     'parent' => $sub->cat_ID,

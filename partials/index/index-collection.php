@@ -39,7 +39,10 @@
                                                         <img src="<?php echo get_the_post_thumbnail_url($product->get_id()) ?>" alt="product-img" class="img-fluid">
                                                     </div>
                                                     <div class="na-overlay-img">
-                                                        <img src="<?php echo  THEME_URI . '/assets/images/index1/new_arrivals/11.png' ?>" alt="product-img" class="img-fluid">
+                                                        <?php $attachment_ids = $product->get_gallery_image_ids();
+                                                        if (is_array($attachment_ids) && !empty($attachment_ids)) :
+                                                            $firstItem = wp_get_attachment_url($attachment_ids[0]); ?>
+                                                            <img src="<?php echo $firstItem  ?>" alt="product-img" class="img-fluid"><?php else : ?><div class="alert alert-info">no image</div> <?php endif; ?>
                                                     </div>
                                                 </div>
                                                 <div class="na-color-details">

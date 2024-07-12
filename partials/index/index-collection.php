@@ -33,6 +33,11 @@
                             ?>
                                     <div class="grid-item womens mens">
                                         <div class="na-inner-grid c-product-box">
+                                            <?php if ($product->is_type('variable')) : ?>
+                                                <span class="badge badge-danger">10%</span>
+                                            <?php else : ?>
+                                                <span class="badge badge-danger">40%</span>
+                                            <?php endif; ?>
                                             <div class="na-top-sec text-center">
                                                 <div class="na-imgbox">
                                                     <div class="na-mainimg">
